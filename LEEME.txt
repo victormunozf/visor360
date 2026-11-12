@@ -1,0 +1,19 @@
+GoPro 360 Completo - Windows 11
+
+Instalacion (PowerShell dentro de esta carpeta):
+  py -m pip install -r requirements.txt
+
+Inicio: doble clic en iniciar.bat
+
+Funciones:
+- Correccion radial visual de fotos JPG/PNG con intensidad y recorte de bordes.
+- Comparacion antes/despues y descarga ZIP.
+- Ensamblaje panoramico experimental con OpenCV.
+- Visor de TIFF/JPG/PNG panoramicos exportados desde Hugin.
+- Exportacion JPG para web.
+
+Notas:
+- El visor usa Pannellum por CDN y requiere internet.
+- Hugin: exportar preferentemente en proyeccion equirectangular.
+- No aplicar correccion previa a las imagenes para PIX4Dmatic: usar originales.
+- Para correccion metrica se requiere calibracion de lente.
